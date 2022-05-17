@@ -11,4 +11,4 @@
 <li><strong>Vite</strong>, utilizado para encapsular as variaveis de consumo da API.</li>
 </ul>
 
-<a href='https://watch-o.vercel.app/'>Acesse o site aqui<a>
+<a href='https://watch-o.vercel.app/'><img src='./src/assets/Logotipo.svg'/><a>
