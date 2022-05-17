@@ -21,20 +21,20 @@ export function ActionMovies() {
 
 
     return (
-
         <>
-            <header>
-                <ButtonSection {...sectionInfo} />
-            </header>
-
             {
-                !isLoaded ? <Loading /> : <ul className="flex flex-row w-full overflow-x-scroll scrollbar-none gap-8 text-white font-bold pl-0.5/10 pb-10 pt-5 scroll-smooth">
-                    {movieList.map((movie: MovieDetails) => (
-                        <SmallMovieCard {...movie} key={movie.id} />
-                    ))}
-                </ul>
+                !isLoaded ? <Loading /> :
+                    <>
+                        <header>
+                            <ButtonSection {...sectionInfo} />
+                        </header>
+                        <ul className="flex flex-row w-full overflow-x-scroll scrollbar-none gap-8 text-white font-bold pl-0.5/10 pb-10 pt-5 scroll-smooth">
+                            {movieList.map((movie: MovieDetails) => (
+                                <SmallMovieCard {...movie} key={movie.id} />
+                            ))}
+                        </ul>
+                    </>
             }
-
         </>
 
     )

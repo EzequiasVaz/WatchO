@@ -14,9 +14,10 @@ export function SmallButtonGenre(genreID: any) {
             }
         })
     }, [])
+    console.log(genreName)
     return (
         <a href="/genre" className="flex items-center truncate uppercase px-2 rounded-xl text-[0.5rem] py-[0.125rem] font-bold" style={{ backgroundColor: bgColor }}>
-            {genreName}
+            {genreName == 'Ficção científica' ? 'Ficção' : genreName}
         </a>
     )
 }
