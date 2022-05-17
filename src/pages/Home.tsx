@@ -55,7 +55,7 @@ export default function Home() {
 
                 </>
                 }
-                {scroll >= 5 && <>
+                {scroll >= 4 && <>
                     <DramaMovies />
                     <Documentary />
                 </>
