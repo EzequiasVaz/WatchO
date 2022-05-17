@@ -10,3 +10,5 @@
 <li><strong>TypeScript</strong>, utilizei em todo o projeto, ajuda muito em não se perder no projeto e tipar as regras de negócio.</li>
 <li><strong>Vite</strong>, utilizado para encapsular as variaveis de consumo da API.</li>
 </ul>
+
+<a href='https://watch-o.vercel.app/'>Acesse o site aqui<a>

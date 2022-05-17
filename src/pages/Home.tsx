@@ -41,12 +41,16 @@ export default function Home() {
                 <ScienceFiction />
                 {scroll >= 1 && <>
                     <AnimationMovies />
+                </>
+                }
+                {scroll >= 2 && <>
+
                     <ComedyMovies />
                     <WarMovies />
                     <ThrillerMovies />
                 </>
                 }
-                {scroll >= 2 && <>
+                {scroll >= 3 && <>
                     <RomanceMovies />
                     <AdventureMovies />
                     <DramaMovies />
